@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+   
+}
+
+.left-sec {
+    position: relative;
+}
+
+img[src="./images/banner.jpg"] {
+    width: 25rem;
+    height: 700px;
+}
+
+img[src="./images/logo.png"] {
+    width: 6rem;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+.right-sec {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav p {
+    color: grey;
+}
+
+nav p:nth-child(2) {
+    color: black;
+}
+
+.line {
+    display: inline;
+}
+
+.about {
+    padding: 1rem 2rem;
+    position: relative;
+    display: flex;
+    gap: 3rem;
+}
+
+h1 {
+    font-size: 6rem;
+    -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  /* -webkit-text-stroke-color: white;  */
+}
+
+h2 {
+    font-size: 6rem;
+    line-height: 20px;
+    margin-left: 7rem;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.mid {
+    margin-top: 9rem;
+}
+
+.mid p {
+    color: grey;
+}
+
+.mid button {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    flex-direction: column;
+}
+
+.social img {
+    width: 2rem;
+}
+
+.services {
+    margin: 1rem;
+    position: relative;
+}
+
+
+
+.dot1 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.8rem;
+    left: -0.4rem;
+}
+
+.dot1::after {
+    content: "Photograph";
+    position: absolute;
+    left: 1.5rem;
+    top: -0.5rem;
+}
+
+.dot2 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: -0.4rem;
+}
+
+.dot2::after {
+    content: "Videography";
+    color: grey;
+    position: absolute;
+    left: 1.5rem;
+    top: -0.5rem;
+}
+
+.dot3 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.7rem;
+    left: -0.4rem;
+}
+
+.dot3::after {
+    content: "GraphicDesign";
+    color: grey;
+    position: absolute;
+    left: 1.5rem;
+    top: -0.5rem;
+}
+
+.dot4 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 5.9rem;
+    left: -0.4rem;
+}
+
+.dot4::after {
+    content: "Illustration";
+    color: grey;
+    position: absolute;
+    left: 1.5rem;
+    top: -0.5rem;
+}
+
+.dot5 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.6rem;
+    left: -0.4rem;
+}
+
+.dot5::after {
+    content: "Animation";
+    color: grey;
+    position: absolute;
+    left: 1.5rem;
+    top: -0.5rem;
+}
+
+.service-content {
+    position: absolute;
+    top: 1.5rem;
+    left: 15rem;
+}
+
+.service-content h3 {
+    font-size: 6rem;
+    line-height: 0rem;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.service-content img {
+    width: 20rem;
+    margin: 0.5rem 0rem
+}
+
+.arrow img {
+    position: absolute;
+    right: 2rem;
+    top: 5rem;
+}
+
+
+
+
