@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 * {
     margin: 0px;
@@ -63,6 +64,7 @@ nav p:nth-child(2) {
 
 h1 {
     font-size: 6rem;
+    font-family: 'Merriweather', serif;
     -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   /* -webkit-text-stroke-color: white;  */
@@ -70,7 +72,8 @@ h1 {
 
 h2 {
     font-size: 6rem;
-    line-height: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 45px;
     margin-left: 7rem;
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
@@ -209,6 +212,7 @@ h2 {
 
 .service-content h3 {
     font-size: 6rem;
+    font-family: 'Merriweather', serif;
     line-height: 0rem;
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
